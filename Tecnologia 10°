@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gatos gatos y mas gatos!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: royalblue;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px 0 5px; 
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 90px;
+            margin: 0;
+        }
+
+        header img {
+            float: right;
+            margin-left: 20px;
+        }
+
+        nav {
+            background-color: black;
+            height: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        .content {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+
+        aside {
+            float: right;
+            width: 20%;
+            background-color: lightgray;
+            padding: 10px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        article {
+            background-color: white;
+            color: black;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+        }
+
+        ul.stop-motion-list {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+
+        .link-descripcion {
+            color: blue;
+        }
+
+        a[href="https://www.youtube.com/@Stop_Motion_Colombia"] {
+            color: blue;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://i.cbc.ca/1.5359228.1577206958!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/smudge-the-viral-cat.jpg" alt= " quefue" width="350" height="200">
+        <h1>Gatos gatos y mas gatos!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#personal-info">Información Personal</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+<article>
+            <h3>Lista de gatos que me gustan </h3>
+            <ul>
+                <li>Gatos naranja</li>
+                <li>Gatos gorditos</li>
+                <li>Gatos gris con blanco</li>
+                <li>Gatitos con heterocromia</li>
+                <li>Gatitos peluditos</li>
+                <li>Gatitos juguetones</li>
+
+  </article>
+
+        <article>
+            <h3>Tabla de información</h3>
+            <table id="tabla">
+                <tr>
+                    <th>Personaje</th>
+                    <th>Horarios de publicaciones de gatos</th>
+                    <th>Cantidad de publicaciones</th>
+                </tr>
+                <tr>
+                    <td>Gatitos peluditos</td>
+                    <td>Lunes y Domingos</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Gatos naranja</td>
+                    <td>Martes</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Gatos gorditos</td>
+                    <td>Miercoles y Jueves</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Gatos gris con blanco</td>
+                    <td>Viernes</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Gatitos con heterocromia</td>
+                    <td>Sabado</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+
+    <aside>
+        <h2>Descripción del Sitio Web</h2>
+        <p> ¡Hola! espero que te diviertas y que te gusten los gatos porque... </p>
+         <p> En este sitio, publicaré contenido semanal sobre curiosidades de los mininos y mi gatita Mimis.</p>
+        <p>Para ver unas lindas fotos de Mimi, visita este link!: <a href="https://drive.google.com/drive/folders/1uk7HfEe0MzCRUX05sJ2fE1MNoaQ4EOXV?usp=sharing" target="_blank"> Fotos de Mimi </a></p>
+      <p>Para ver actualizaciones de Mimi, visita su perfil de Instagram: <a href="https://www.instagram.com/catalinahernandez161/" target="_blank"> instagram de Mimi </a></p>
+        <p>Para explorar más detalles, consulta la <a href="#tabla" class="link-descripcion">tabla de información</a>.</p>
+    </aside>
+
+    <footer>
+        <div id="personal-info">
+            <p>Información Personal</p>
+            <p>Nombre: Catalina Hernández Claros</p>
+            <p>Teléfono: 305 3089693</p>
+            <p>Correo Electrónico: catrinax209@gmail.com</p>
+            <p>Institución: Skolmi</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+    <div class="container content">
+        <button type="button" class="btn btn-interactive" data-toggle="modal" data-target="#interactiveModal">
+            ¿Qué es?
+        </button>
+
+        <div class="modal fade" id="interactiveModal" tabindex="-1" role="dialog" aria-labelledby="interactiveModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interactiveModalLabel">Porque los gatos?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        El Los gatitos son adorables por su combinación de rasgos físicos y comportamientos encantadores. Sus ojos grandes y brillantes, orejas puntiagudas, y suaves patas los hacen irresistiblemente tiernos. Además, su curiosidad natural y juguetona, junto con su ronroneo suave, crean una sensación de ternura y calidez. Ver a un gatito explorar su entorno o acurrucarse para una siesta provoca una sensación de alegría y amor que es difícil de resistir. Su vulnerabilidad y dependencia también evocan un instinto protector en las personas, lo que los hace aún más encantadores.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 gatos gatos y mas gatos!</p>
+    </footer>
+</body>
+
+</html>
